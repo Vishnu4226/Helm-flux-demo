@@ -2,11 +2,11 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: hello
-  namespace: fluxcd
+  namespace: flux
 spec:
   releaseName: hello-app
   chart:
-    git: git@github.com:gajadevops/flux-demo.git
+    git: git@github.com:Vishnu4226/Helm-flux-demo.git
     ref: master
     path: chart/hello
 #     repository: https://stefanprodan.github.io/podinfo
