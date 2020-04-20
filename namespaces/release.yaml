@@ -7,7 +7,7 @@ spec:
   releaseName: hello-app
   chart:
     git: git@github.com:Vishnu4226/Helm-flux-demo.git
-    ref: V1.0.0
+    ref: v1.0.1
     path: chart/hello
 #     repository: https://stefanprodan.github.io/podinfo
 #     version: 2.1.0
